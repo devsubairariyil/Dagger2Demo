@@ -17,8 +17,6 @@ import com.ariyil.dagger2demo.ui.base.BaseFragment;
 
 public class MainFragment extends BaseFragment {
 
-    private MainViewModel mViewModel;
-
     public static MainFragment newInstance() {
         return new MainFragment();
     }
@@ -32,8 +30,6 @@ public class MainFragment extends BaseFragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mViewModel = ViewModelProviders.of(this).get(MainViewModel.class);
-        // TODO: Use the ViewModel
     }
 
     @Override

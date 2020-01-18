@@ -1,6 +1,5 @@
 package com.ariyil.dagger2demo.dagger.module;
 
-import com.ariyil.dagger2demo.ui.base.BaseViewModel;
 import com.ariyil.dagger2demo.ui.base.DemoViewModelFactory;
 import com.ariyil.dagger2demo.ui.main.MainViewModel;
 
